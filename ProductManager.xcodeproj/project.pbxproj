@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5315346F27ED9A9700C83182 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5315346E27ED9A9700C83182 /* README.md */; };
+		5315347127ED9BB300C83182 /* ProductService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5315347027ED9BB300C83182 /* ProductService.swift */; };
 		53153FA127EC8ED0006914B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53153FA027EC8ED0006914B9 /* AppDelegate.swift */; };
 		53153FAA27EC8ED2006914B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53153FA927EC8ED2006914B9 /* Assets.xcassets */; };
 		53153FAD27EC8ED2006914B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53153FAB27EC8ED2006914B9 /* LaunchScreen.storyboard */; };
@@ -73,6 +75,8 @@
 /* Begin PBXFileReference section */
 		073641A6E3B5F6657F088CAB /* Pods-ProductManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProductManager.release.xcconfig"; path = "Target Support Files/Pods-ProductManager/Pods-ProductManager.release.xcconfig"; sourceTree = "<group>"; };
 		3604A5DE833520AD194A1102 /* Pods-ProductManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProductManager.debug.xcconfig"; path = "Target Support Files/Pods-ProductManager/Pods-ProductManager.debug.xcconfig"; sourceTree = "<group>"; };
+		5315346E27ED9A9700C83182 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5315347027ED9BB300C83182 /* ProductService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductService.swift; sourceTree = "<group>"; };
 		53153F9D27EC8ED0006914B9 /* ProductManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProductManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53153FA027EC8ED0006914B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		53153FA927EC8ED2006914B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -152,6 +156,7 @@
 		53153F9427EC8ED0006914B9 = {
 			isa = PBXGroup;
 			children = (
+				5315346E27ED9A9700C83182 /* README.md */,
 				53153F9F27EC8ED0006914B9 /* ProductManager */,
 				53153FB627EC8ED2006914B9 /* ProductManagerTests */,
 				53153FC027EC8ED2006914B9 /* ProductManagerUITests */,
@@ -286,6 +291,7 @@
 			children = (
 				5315401E27EC8F9D006914B9 /* Mocked */,
 				5315402027EC8F9D006914B9 /* Network */,
+				5315347027ED9BB300C83182 /* ProductService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -319,7 +325,6 @@
 		5315403027EC9252006914B9 /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
-				5315405827EC9299006914B9 /* Reusable.swift */,
 				5315403127EC9252006914B9 /* Spawnable.swift */,
 			);
 			path = Protocols;
@@ -328,6 +333,7 @@
 		5315403227EC9252006914B9 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				5315405827EC9299006914B9 /* Reusable.swift */,
 				5315405727EC9299006914B9 /* HideBackTitleNavigationController.swift */,
 				5315403327EC9252006914B9 /* UIActivityIndicator+Extensions.swift */,
 				5315403427EC9252006914B9 /* UIViewController+Alerts.swift */,
@@ -604,6 +610,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5315346F27ED9A9700C83182 /* README.md in Resources */,
 				5315408F27ECD340006914B9 /* Localizable.strings in Resources */,
 				531540A527ED3B2E006914B9 /* Main.storyboard in Resources */,
 				53153FAD27EC8ED2006914B9 /* LaunchScreen.storyboard in Resources */,
@@ -682,6 +689,7 @@
 				5315403827EC9252006914B9 /* UIActivityIndicator+Extensions.swift in Sources */,
 				5315408E27ECD340006914B9 /* Storyboards.swift in Sources */,
 				5315408C27ECD340006914B9 /* Strings.swift in Sources */,
+				5315347127ED9BB300C83182 /* ProductService.swift in Sources */,
 				5315409327ECEA15006914B9 /* ProductsCellViewModel.swift in Sources */,
 				5315407C27ECA4A7006914B9 /* ProductsTableViewCell.swift in Sources */,
 				5315402427EC8F9D006914B9 /* EndpointType.swift in Sources */,
