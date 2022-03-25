@@ -1,5 +1,5 @@
 import Foundation
 
 struct UITestUtils {
-    static let searchQuery = "a\n"
+    static let searchQuery = "a"
 }
