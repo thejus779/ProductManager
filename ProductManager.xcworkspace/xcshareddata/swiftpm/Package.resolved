@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "TLogger",
+        "repositoryURL": "https://github.com/thejus779/TLogger.git",
+        "state": {
+          "branch": "main",
+          "revision": "707b8819308b9304505d4d1a64ec101f46c3cb9c",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}

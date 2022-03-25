@@ -1,0 +1,19 @@
+"common.error" = "Error";
+"common.button.ok" = "OK";
+"common.error.coding" = "Coding Error";
+"common.error.unknown" = "Unknown Error";
+"common.error.noData" = "No data Error";
+"common.error.serverError" = "Server Error";
+"common.noinfo" = "No data available";
+"common.yes" = "YES";
+"common.no" = "NO";
+
+"searchproductsviewcontroller.field.placeholder" = "Search Products...";
+"searchproductsviewcontroller.label.nodata" = "❌ \n\n 📲 💻 No Products found ";
+"searchproductsviewcontroller.label.search" = "🔍  Search your product  📲 💻";
+
+"productdetailsviewcontroller.title" = "Details";
+"productdetailsviewcontroller.label.name" = "Name :";
+"productdetailsviewcontroller.label.cost" = "Cost :";
+"productdetailsviewcontroller.label.info" = "Details :";
+

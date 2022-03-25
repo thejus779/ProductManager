@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "SDWebImage",
+        "repositoryURL": "https://github.com/SDWebImage/SDWebImage",
+        "state": {
+          "branch": "master",
+          "revision": "2e63d0061da449ad0ed130768d05dceb1496de44",
+          "version": null
+        }
+      },
+      {
+        "package": "TLogger",
+        "repositoryURL": "https://github.com/thejus779/TLogger.git",
+        "state": {
+          "branch": "main",
+          "revision": "707b8819308b9304505d4d1a64ec101f46c3cb9c",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
